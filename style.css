@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    background-color: #F7F5F2;
+}
+
+button{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #E45826;
 }
 /* NAVIGATION BAR */
 .navbar{
-    padding-bottom: 70px;
+    padding-bottom: 20px;
 }
 
 /* FIRST IMAGE CONTAINER */
@@ -47,4 +57,15 @@ h5{
     gap: 50px;
     grid-template-rows: 1fr;
     padding-top: 50px;
+}
+
+/* FOOTER */
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footer-section > p{
+    color: gray;
 }
