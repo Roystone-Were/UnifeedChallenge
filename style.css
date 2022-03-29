@@ -14,6 +14,20 @@ button{
     border-radius: 8px;
     background-color: #E45826;
 }
+
+h3,h1{
+    font-weight: bold;
+}
+
+h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p{
+    color: grey;
+}
+
 /* NAVIGATION BAR */
 .navbar{
     padding-bottom: 20px;
@@ -41,11 +55,6 @@ button{
     justify-items: center;
     margin-top: 10px;
 }
-
-h5{
-    font-size: 15px;
-}
-
 /* BLOG SECTION */
 
 .grid-image{
@@ -65,8 +74,4 @@ h5{
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
-}
-
-.footer-section > p{
-    color: gray;
 }
