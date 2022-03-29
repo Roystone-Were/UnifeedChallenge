@@ -6,6 +6,7 @@ body{
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
     background-color: #F7F5F2;
+    scroll-behavior: smooth;
 }
 
 button{
